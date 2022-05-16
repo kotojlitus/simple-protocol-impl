@@ -1,0 +1,18 @@
+{
+  "name": "custom_protocol_impl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.0.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}

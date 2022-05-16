@@ -1,0 +1,7 @@
+type in the console
+
+exec 3>/dev/tcp/localhost/3003
+
+echo -n -e '\x01\x00\x01\x00\x41' >&3
+
+echo -n -e '\x01\x00\x01\x00\x41\x02\x00\x01\x00\x42' >&3
